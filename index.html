@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./src/images/lua.png"> <!-- Icon Web -->
+    <link rel="stylesheet" href="./src/style.css"> <!-- Css Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> <!-- Google Fonts (Poppins) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- Font Awesome (icons) -->
+    <title>Portfólio Nunes</title>
+</head>
+<body>
+    <main>
+        <aside class="sidebar" data-sidebar>
+            
+            <div class="sidebar-info">
+
+                <figure class="avatar-box">
+                    <img src="./src/images/Nunesdv.png" alt="Hugo A. Nunes" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Hugo A. Nunes"> Hugo A. Nunes</h1>
+                    <p class="title">Desenvolvedor Web</p>
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Mostrar Contatos</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+
+            </div>
+            <div class="sidebar-info_more">
+                
+                <div class="separator"></div>
+                
+                <ul class="contacts-list">
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="hugoanunes2003@gmail.com" class="contact-link">hugoanunes2003@gmail.com</a>
+                        </div>
+
+                    </li>
+                        <li class="contact-item">
+
+                            <div class="icon-box">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+
+                            <div class="contact-info">
+                                <p class="contact-title">Telefone</p>
+                                <a href="tel:+5511986186509" class="contact-link">+5511986186509</a>
+                            </div>
+
+                        </li>
+
+                        <li class="contact-item">
+
+                            <div class="icon-box">
+                                <i class="fa-solid fa-calendar-days"></i>
+                            </div>
+
+                            <div class="contact-info">
+                                <p class="contact-title">Aniversário</p>
+
+                                <time datetime="2003-03-10">Março 10, 2003</time>
+                            </div>
+
+                        </li>
+
+                        <li class="contact-item">
+
+                            <div class="icon-box">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+
+                            <div class="contact-info">
+                                <p class="contact-title">Localização</p>
+
+                                <address>Anápolis, Goiás , Brasil</address>
+                            </div>
+
+                        </li>
+
+                    </ul>
+
+                <div class="separator"></div>
+
+                    <ul class="social-list">
+
+                        <li class="social-item">
+                            <a href="#" class="social-link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+
+                        <li class="social-item">
+                            <a href="#" class="social-link">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+
+                        <li class="social-item">
+                            <a href="#" class="social-link">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                    </ul>
+            </div>
+
+        </aside>
+   
+
+    <div class="main-content">
+
+        <!-- Barra de navegação -->
+
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <button class="navbar-link active" data-nav-link>Sobre</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link active" data-nav-link>Currículo</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link active" data-nav-link>Portfólio</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link active" data-nav-link>Blog</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link active" data-nav-link>Contatos</button>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Sobre -->
+
+        <article class="about active" data-page="sobre">
+            <header>
+                <h2 class="h2 article-title">Sobre</h2>
+            </header>
+            <section class="about-text">
+                <p>
+                    Sou Diretor de Criação e UI/UX Designer de Goiás, Brasil, trabalhando com desenvolvimento web e mídia impressa. Gosto de transformar problemas complexos em designs simples, bonitos e intuitivos.
+                </p>
+
+                <p>
+                    Meu trabalho é construir o seu site de forma que seja funcional e fácil de usar, mas ao mesmo tempo atraente. Além disso, adiciono um toque pessoal ao seu produto e garanto que ele seja atraente e fácil de usar. Meu objetivo é transmitir sua mensagem e identidade
+                        da maneira mais criativa.
+                </p>
+            </section>
+
+            <!--  Serviço  -->
+
+            <section class="service">
+
+                <h3 class="h3 service-title">O que faço?</h3>
+                
+                <ul class="service-list">
+
+                    <li class="service-item">
+
+                        <div class="service-icon-box">
+                            <img src="./src/images/chatbot.png" alt="" width="40">
+                        </div>
+
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Automação</h4>
+
+                            <p class="service-item-text">
+                                Produzindo automações com Python para realizar tarefas, e otimizar tempo.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="service-item">
+
+                        <div class="service-icon-box">
+                            <img src="./src/images/designer-de-web.png" width="40" alt="">
+                        </div>
+
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Desenvolvedor Web</h4>
+
+                            <p class="service-item-text">
+                                Alta qualidade em desenvolvimento de sites em um nivel profissional.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="service-item">
+
+                        <div class="service-icon-box">
+                            <img src="./src/images/edicao-de-video.png" width="40" alt="">
+                        </div>
+
+
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Edição de Videos</h4>
+
+                            <p class="service-item-text">
+                                Edição de videos em modo amador, mas com qualidade e bem feito, com um visual unico.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="service-item">
+
+                        <div class="service-icon-box">
+                            <img src="./src/images/estudo.png" alt=""  width="40">
+                        </div>
+
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Estudos</h4>
+
+                            <p class="service-item-text">
+                                Estudando para futuramente conseguir atender um publico maior.
+                            </p>
+                        </div>
+
+                    </li>
+
+                </ul>
+            </section>
+        
+            <!-- Testemunhas -->
+            <section class="testimonials">
+                <h3 class="h3 testimonials-title">Testemunhas</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+
+                    <li class="testimonials-item">
+
+                        <div class="content-card" data-testimonials-item>
+
+                            <figure class="testimonials-avatar-box">
+                                <img src="./src/images/depo2.png" alt="Jonathan Espinola" width="60" data-avatar-testemunhas>
+                            </figure>
+
+                            <h4 class="h4 testimonials-item-title" data-titulo-testemunhas>Jonathan Espinola</h4>
+                            
+                            <div class="testimonials-text" data-testimonials-text>
+                                <p>
+                                    Nunes foi contratado para criar uma automação. Ficamos muito satisfeitos com o trabalho realizado. Ele tem muita experiência e se preocupa muito com as necessidades do cliente. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores est eligendi inventore temporibus minima, magnam ad quisquam. Iusto fugit deserunt aperiam mollitia quam vero quis? Consequatur reprehenderit accusamus et officia!
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="testimonials-item">
+
+                        <div class="content-card" data-testimonials-item>
+
+                            <figure class="testimonials-avatar-box">
+                                <img src="./src/images/depo-3.png" alt="Amanda Amora" width="60" data-avatar-testemunhas>
+                            </figure>
+
+                            <h4 class="h4 testimonials-item-title" data-titulo-testemunhas>Amanda Amora</h4>
+
+                            <div class="testimonials-text" data-testimonials-text=>
+                                <p>
+                                    Nunes foi contratado para criar uma automação. Ficamos muito satisfeitos com o trabalho realizado. Ele tem muita experiência e se preocupa muito com as necessidades do cliente. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores est eligendi inventore temporibus minima, magnam ad quisquam. Iusto fugit deserunt aperiam mollitia quam vero quis? Consequatur reprehenderit accusamus et officia!
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="testimonials-item">
+
+                        <div class="content-card" data-testimonials-item>
+
+                            <figure class="testimonials-avatar-box">
+                                <img src="./src/images/depo-4.png" alt="Rebeca Silva" width="60" data-testimonials-avatar>
+                            </figure>
+
+                            <h4 class="h4 testimonials-item-title" data-testimonials-title>Rebeca Silva</h4>
+
+                            <div class="testimonials-text" data-testimonials-text>
+                                <p>
+                                    Nunes foi contratado para criar uma automação. Ficamos muito satisfeitos com o trabalho realizado. Ele tem muita experiência e se preocupa muito com as necessidades do cliente. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores est eligendi inventore temporibus minima, magnam ad quisquam. Iusto fugit deserunt aperiam mollitia quam vero quis? Consequatur reprehenderit accusamus et officia!
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="testimonials-item">
+
+                        <div class="content-card" data-testimonials-item>
+
+                            <figure class="testimonials-avatar-box">
+                                <img src="./src/images/depo-5.png" alt="Wesley Lira" width="60" data-avatar-testemunhas>
+                            </figure>
+
+                            <h4 class="h4 testimonials-item-title" data-titulo-testemunhas>Wesley Lira</h4>
+
+                            <div class="testimonials-text" data-testimonials-text>
+                                <p>
+                                    Nunes foi contratado para criar uma automação. Ficamos muito satisfeitos com o trabalho realizado. Ele tem muita experiência e se preocupa muito com as necessidades do cliente. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores est eligendi inventore temporibus minima, magnam ad quisquam. Iusto fugit deserunt aperiam mollitia quam vero quis? Consequatur reprehenderit accusamus et officia!
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Testemunhas Formal -->
+
+                <div class="modal-container" data-modal-container>
+                    <div class="overplay" data-overplay></div>
+
+                    <section class="testimonials-modal">
+
+                    <button class="modal-close-btn" data-modal-close-btn>
+                        <i class="fa-solid fa-x"></i>
+                    </button>
+
+                    <div class="modal-img-wrapper">
+                        <figure class="modal-avatar-box">
+                            <img src="./src/images/depo.png" alt="Jaqueline Santos" width="80">
+                        </figure>
+
+                        <img src="./src/images/aspas-duplas.png" alt="aspas duplas" width="30" data-form-img>
+                    </div>
+
+                    <div class="modal-content">
+                        <h4 class="h3 form-title" data-form-title>Jaqueline Santos</h4>
+
+                        <time datetime="2024-05-20">20 de Maio, 2024</time>
+
+                        <div data-form-text>
+
+                            <p>
+                                Nunes foi contratado para criar uma automação. Ficamos muito satisfeitos com o trabalho realizado. Ele tem muita experiência e se preocupa muito com as necessidades do cliente. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores est eligendi inventore temporibus minima, magnam ad quisquam. Iusto fugit deserunt aperiam mollitia quam vero quis? Consequatur reprehenderit accusamus et officia!
+                            </p>
+                        </div>
+
+                    </div>
+
+                </section>
+            </div>
+
+
+                <!-- Clients -->
+
+                <section class="clients">
+                    <h3 class="h3 clients-title">Clientes</h3>
+
+                    <ul class="clients-list has-scrollbar">
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./src/images/client.png" alt="" width="80">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./src/images/client2.png" alt="" width="80">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./src/images/client3.png" alt="" width="80">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./src/images/client4.png" alt="" width="80">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./src/images/client5.png" alt="" width="80">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./src/images/client6.png" alt="" width="80">
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+        </article>
+
+
+        <!-- Currículo -->
+
+
+        <article class="resume" data-page="currículo">
+
+            <header>
+                <h2 class="h2 article-title">Currículo</h2>
+            </header>
+
+            <section class="timeline">
+
+            <div class="title-wrapper">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-book"></i>
+                    </div>
+
+                    <h3 class="h3">Educação</h3>
+                </div>
+
+                <ol class="timeline-list">
+                <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">Ensino Médio</h4>
+                    
+                        <span>2019 - 2022</span>
+
+                        <p class="timeline-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quisquam voluptas ipsam adipisci! Quas, dolorum earum? Dolorum odit nesciunt aspernatur nisi minima? Culpa, itaque quia? Cum iusto praesentium dolores adipisci!
+                        </p>
+                    </li>
+
+                    <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">Desenvolvedor Full Stack (Web)</h4>
+                
+                        <span>2023 - 2024</span>
+                    
+                        <p class="timeline-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero doloremque repudiandae rerum sunt eos corrupti dolore maiores quam in quos officia maxime amet magnam, nobis tempora necessitatibus vitae sed! Cupiditate.
+                        </p>
+                    </li>
+
+                    <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">Python</h4>
+
+                        <span>2024 - Presente</span>
+
+                        <p class="timeline-text">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam quasi commodi quos quas voluptate qui nulla, ratione ut aspernatur expedita et, blanditiis veritatis repudiandae nihil quo quidem fugit adipisci deleniti!
+                        </p>
+                    </li>
+                </ol>
+            </section>
+
+            <section class="timeline">
+
+            <div class="title-wrapper">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+
+                    <h3 class="h3">Experiência</h3>
+                </div>
+                <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+                    <h4 class="h4 timeline-item-title">Automação Python</h4>
+
+                        <span>2024 - Presente</span>
+
+                        <p class="timeline-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore quia itaque provident voluptas, adipisci aliquid quaerat deserunt! Dolorem similique sed, incidunt repellat quo, blanditiis eaque quae cupiditate repellendus odio inventore.
+                        </p>
+                    </li>
+
+                <li class="timeline-item">
+
+                        <h4 class="h4 timeline-item-title">Web Desenvolvedor</h4>
+                    
+                        <span>2023 - Presente</span>
+
+                        <p class="timeline-text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, optio! Repudiandae eligendi facere quo obcaecati magni molestias doloremque error, quibusdam adipisci voluptate et dicta? Totam, beatae doloribus. Repudiandae, voluptatibus ullam!
+                        </p>
+                    </li>
+
+                <li class="timeline-item">
+
+                    <h4 class="h4 timeline-item-title">Edição de Video</h4>
+
+                        <span>2020 - 2023</span>
+
+                            <p class="timeline-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo minus culpa perspiciatis rem quis eligendi sapiente, ratione tempore quidem ipsa? Architecto deleniti reiciendis beatae tenetur quod esse eaque sapiente impedit?
+                            </p>
+                    </li>
+                </ol>
+                
+            </section> 
+                
+            <!-- Habilidades -->
+
+                <section class="skill">
+
+                    <h3 class="h3 skills-title">Minhas Habilidades</h3>
+
+                    <ul class="skills-list content-card">
+
+                    <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">Front End</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 80%;"></div>
+                            </div>
+
+
+                        <li class="skills-item">
+
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Back End</h5>
+                                    <data value="50">50%</data>
+                                </div>
+    
+                                <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 50%;"></div>
+                                </div>
+                            </li>
+
+                            <li class="skills-item">
+
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Python</h5>
+                                    <data value="70">70%</data>
+                                </div>
+    
+                                <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 70%;"></div>
+                                </div>
+                            </li>
+
+                            <li class="skills-item">
+
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Edição</h5>
+                                    <data value="70">70%</data>
+                                </div>
+    
+                                <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 70%;"></div>
+                                </div>
+                            </li>
+                    </ul>
+                </section>
+                
+                </article>
+                
+                <!-- Portifólio -->
+                
+
+                <article class="portfolio" data-page="portfólio">
+
+                    <header>
+                        <h2 class="h2 article-title">Portfólio</h2>
+                    </header>
+
+                    <section class="projects">
+                        <ul class="filter-list">
+
+                        <li class="filter-item">
+                                <button class="active" data-filtrada-btn>Todos</button>
+                            </li>
+
+                            <li class="filter-item">
+                                <button data-filtrada-btn>Desenvolvedor Web</button>
+                            </li>
+                            <li class="filter-item">
+                                <button data-filtrada-btn>Automação</button>
+                            </li>
+                            <li class="filter-item">
+                                <button data-filtrada-btn>Edição</button>
+                            </li>
+                        </ul>
+
+                        <div class="filter-select-box">
+
+                            <button class="filter-select" data-select>
+
+                                <div class="select-value" data-select-value>Selecionar Categoria</div>
+                                
+                                <div class="select-icon">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </div>
+                            </button>
+
+                            <ul class="select-list">
+                                <li class="filter-item">
+                                    <button data-item-selecionar>Todos</button>
+                                </li>
+
+                                <li class="filter-item">
+                                    <button data-item-selecionar>Desenvolvedor Web</button>
+                                </li>
+
+                                <li class="filter-item">
+                                    <button data-item-selecionar>Automação</button>
+                                </li>
+
+                                <li class="filter-item">
+                                    <button data-item-selecionar>Edição</button>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <ul class="project-list">
+
+                            <li class="project-list active" data-filter-item data-categoria="Desenvolvedor Web">
+
+                                <a href="#">
+
+                                    <figure class="project-img">
+                                        <div class="project-item-icon-box">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </div>
+
+                                        <img src="./src/images/Projeto-1.png" alt="Kimetsu" loading="lazy">
+                                    </figure>
+
+                                    <h3 class="project-title">Kimetsu No Yaiaba</h3>
+
+                                    <p class="project-category">Desenvolvedor Web</p>
+                                </a>
+                            </li>
+                            
+                            <li class="project-list active" data-filter-item data-categoria="Desenvolvedor Web">
+                                <a href="#">
+
+                                    <figure class="project-img">
+                                        <div class="project-item-icon-box">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </div>
+
+                                        <img src="./src/images/projeto-2.png" alt="One Piece" loading="lazy">
+                                    </figure>
+
+                                    <h3 class="project-title">One Piece</h3>
+
+                                    <p class="project-category">Desenvolvedor Web</p>
+                                </a>
+                            </li>
+
+                            <li class="project-list active" data-filter-item data-categoria="Desenvolvedor Web">
+                                <a href="#">
+
+                                    <figure class="project-img">
+                                        <div class="project-item-icon-box">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </div>
+
+                                        <img src="./src/images/projeto-3.png" alt="Perfil" loading="lazy">
+                                    </figure>
+
+                                    <h3 class="project-title">Perfil de Usuário</h3>
+
+                                    <p class="project-category">Desenvolvedor Web</p>
+                                </a>
+                            </li>
+
+                            <li class="project-list active" data-filter-item data-categoria="Desenvolvedor Web">
+                                <a href="#">
+
+                                    <figure class="project-img">
+                                        <div class="project-item-icon-box">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </div>
+
+                                        <img src="./src/images/projeto-4.png" alt="Assinatura Mensal" loading="lazy">
+                                    </figure>
+
+                                    <h3 class="project-title">Assinatura Mensal</h3>
+
+                                    <p class="project-category">Desenvolvedor Web</p>
+                                </a>
+                            </li>
+
+                            <li class="project-list active" data-filter-item data-categoria="Desenvolvedor Web">
+                                <a href="#">
+
+                                    <figure class="project-img">
+                                        <div class="project-item-icon-box">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </div>
+
+                                        <img src="./src/images/projeto-5.png" alt="Página Principal" loading="lazy">
+                                    </figure>
+
+                                        <h3 class="project-title">Página Principal</h3>
+
+                                        <p class="project-category">Desenvolvedor Web</p>
+                                </a>
+                            </li>
+
+                            <li class="project-list active" data-filter-item data-categoria="Automação">
+                                <a href="#">
+
+                                    <figure class="project-img">
+                                        <div class="project-item-icon-box">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </div>
+
+                                        <img src="./src/images/projeto-6.png" alt="Automação Python" loading="lazy">
+                                    </figure>
+
+                                    <h3 class="project-title">Automação Python</h3>
+
+                                    <p class="project-category">Automação</p>
+                                </a>
+                            </li>
+
+                            <li class="project-list active" data-filter-item data-categoria="Desenvolvedor Web">
+                                <a href="#">
+
+                                    <figure class="project-img">
+                                        <div class="project-item-icon-box">
+                                            <i class="fa-solid fa-eye"></i>
+                                        </div>
+
+                                        <img src="./src/images/projeto-7.png" alt="Informações de Carros" loading="lazy">
+                                    </figure>
+
+                                    <h3 class="project-title">Informações de Carros</h3>
+
+                                    <p class="project-category">Desenvolvedor Web</p>
+                                </a>
+                            </li>
+
+                            <li class="project-list active" data-filter-item data-categoria="Desenvolvedor Web">
+                                <a href="#">
+
+                                        <figure class="project-img">
+                                            <div class="project-item-icon-box">
+                                                <i class="fa-solid fa-eye"></i>
+                                            </div>
+
+                                            <img src="./src/images/projeto-8.png" alt="Status de Empresa" loading="lazy">
+                                        </figure>
+
+                                        <h3 class="project-title">Status de Empresa</h3>
+
+                                        <p class="project-category">Desenvolvedor Web</p>
+                                </a>
+                            </li>
+
+                            <li class="project-list active" data-filter-item data-categoria="Desenvolvedor Web">
+                                <a href="#">
+
+                                    <figure class="project-img">
+                                        <div class="project-item-icon-box">
+                                         <i class="fa-solid fa-eye"></i>
+                                        </div>
+
+                                        <img src="./src/images/projeto-9.png" alt="Cartão de Produto" loading="lazy">
+                                    </figure>
+
+                                    <h3 class="project-title">Cartão de Produto</h3>
+
+                                    <p class="project-category">Desenvolvedor Web</p>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </section>
+               </article>                 
+
+
+               <!-- Blog -->
+
+               <article class="blog" data-page="blog">
+
+                <header>
+                    <h2 class="h2 article-title">Blog</h2>
+                </header>
+
+                <section class="blog-posts">
+
+                    <ul class="blog-posts-list">
+
+                        <li class="blog-post-item">
+                            <a href="#">
+
+                                <figure class="blog-banner-box">
+                                    <img src="./src/images/blog-1-python.jpg" alt="Ferramentas de automação" width="300" height="200">
+                                </figure>
+
+                                <div class="blog-content">
+
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Automação</p>
+
+                                        <span class="dot"></span>
+
+                                        <time datetime="2024-01-10">Janeiro 10, 2024</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Ferramentas de automação</h3>
+
+                                    <p class="blog-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias modi pariatur, voluptate quaerat eum impedit dolores laudantium? Quis sapiente enim error, ullam tempora, harum sequi ad nam tempore nulla pariatur!
+                                    </p>
+                                </div>
+
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="#">
+
+                                <figure class="blog-banner-box">
+                                    <img src="./src/images/blog-2-python.jpeg" alt="Python e suas automações" width="300" height="200">
+                                </figure>
+
+                                <div class="blog-content">
+
+                                    <div class="blog-meta">
+
+                                        <p class="blog-category">Automação</p>
+
+                                        <span class="dot"></span>
+
+                                        <time datetime="2024-01-05">Janeiro 5, 2024</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Python e suas automações</h3>
+
+                                    <p class="blog-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem optio porro cumque fuga quae vero natus alias, totam, nulla dolorum nostrum esse laudantium velit odit reprehenderit! Qui, dolores minus?
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="#">
+
+                                <figure class="blog-banner-box">
+                                    <img src="./src/images/blog-5-web.jpeg" alt="Ferramentas Full-Stack">
+                                </figure>
+
+                                <div class="blog-content">
+
+                                    <div class="blog-meta">
+
+                                        <p class="blog-category">Desenvolvedor Web</p>
+
+                                        <span class="dot"></span>
+
+                                        <time datetime="2024-01-04">Janeiro 04, 2024</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Ferramentas Full-Stack</h3>
+
+                                    <p class="blog-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ab debitis, repellat obcaecati veritatis maxime suscipit at beatae aperiam molestias rerum laudantium impedit quidem, temporibus assumenda reiciendis laborum omnis blanditiis?
+                                    </p>
+
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="#">
+
+                                <figure class="blog-banner-box">
+                                    <img src="./src/images/blog-3-python.png" alt="Os códigos" width="300" height="200">
+                                </figure>
+
+                                <div class="blog-content">
+
+                                    <div class="blog-meta">
+
+                                        <p class="blog-category">Automação</p>
+
+                                        <span class="dot"></span>
+
+                                        <time datetime="2023-12-22">Dezembro 22, 2023</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">Os códigos</h3>
+
+                                    <p class="blog-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis vero facere mollitia repellat nisi in impedit magnam pariatur ut, porro suscipit iure esse, inventore at eius distinctio ullam atque eum.
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="#">
+
+                                <figure class="blog-banner-box">
+                                    <img src="./src/images/blog-4-web.png" alt="As responsabilidades" width="300" height="200">
+                                </figure>
+
+                                <div class="blog-content">
+
+                                    <div class="blog-meta">
+
+                                        <p class="blog-category">Desenvolvedor Web</p>
+
+                                        <span class="dot"></span>
+
+                                        <time datetime="2023-11-01">Novembro 01, 2023</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">As responsabilidades</h3>
+
+                                    <p class="blog-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas quidem dolorem quo quisquam, culpa magni, laborum fuga qui, aliquid dignissimos commodi porro vero assumenda nostrum optio magnam tempora voluptatibus!
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li class="blog-post-item">
+                            <a href="#">
+
+                                <figure class="blog-banner-box">
+                                    <img src="./src/images/blog-6-salary.webp" alt="Salário de um Desenvolvedor" width="300" height="200">
+                                </figure>
+
+                                <div class="blog-content">
+
+                                    <div class="blog-meta">
+
+                                        <p class="blog-category">Desenvolvedor Web</p>
+
+                                        <span class="dot"></span>
+
+                                        <time datetime="2023-03-10">Março 10, 2023</time>
+                                    </div>
+
+                                    <h3 class="h3 titulo blog item">Salário de um Desenvolvedor</h3>
+
+                                    <p class="blog-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit deserunt cumque, saepe hic sed ipsa quam modi maxime fuga fugit voluptatem doloremque porro nam repellat! Nesciunt consequuntur ipsa ullam facere.
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+               </article>
+
+               <!--Contato -->
+
+
+                <article class="contact" data-page="contatos">
+                    <header>
+                        <h2 class="h2 article-title">Contato</h2>
+                    </header>
+
+                    <section class="mapbox" data-mapbox>
+
+                    <figure>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d239.22246871288036!2d-48.89969563991743!3d-16.396386932962034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1718133303576!5m2!1spt-BR!2sbr" width="400" height="300" loading="lazy"></iframe>
+                    </figure>
+                </section>
+
+                <section class="contact-form">
+
+                    <h3 class="h3 form-title">Contato Formal</h3>
+
+                    <form action="#" class="form" data-formal>
+
+                        <div class="input-wrapper">
+
+                            <input type="text" name="Nome Completo" class="form-input" placeholder="Nome Completo" required data-form-input>
+
+                            <input type="email" name="email" class="form-input" placeholder="Endereço de Email" required data-form-input>
+                        </div>
+
+                        <textarea name="Mensagem" class="form-input" placeholder="Sua mensagem" required data-form-input></textarea>
+
+                        <button class="form-btn" type="Enviar" disabled data-form-btn>
+                            <i class="fa-solid fa-paper-plane"></i>
+                            <span>Mandar mensagem</span>
+                        </button>
+                    </form>
+                    </section>
+                </article>
+        </div>
+    </main>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
